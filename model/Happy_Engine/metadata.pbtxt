@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "HAPPY_ENGINE"
+description: "HAPPY ENGINE\nHappy Engine consists of 3 carriages which can be played together or separately as a pull-toy. Each carrier has a different effect while being pulled."
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "PlanToys"
+}
+annotations {
+  key: "mpn"
+  value: "5131"
+}
+annotations {
+  key: "sku"
+  value: "0513100"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Toys"
+}
