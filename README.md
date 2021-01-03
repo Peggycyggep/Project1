@@ -21,18 +21,18 @@ To run this project, log into the the Udacity Workspace:
 
 1. Open a console, download and build the project
 ```
-$ cd <to the workspace folder>
+$ cd /home/workspace
 $ git clone https://github.com/peggycyggep/Project1
 $ cd Project1
 $ mkdir build
 $ cd build/
 $ cmake ../
 $ make # You might get errors if your system is not up to date!
-$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/myrobot/build
+$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/Project1/build
 ```
 2. In the same console or open another console, launch the gazebo
 ```
-$ cd <to the catkin workspace>
+$ cd /home/workspace
 $ gazebo project
 ```
 
